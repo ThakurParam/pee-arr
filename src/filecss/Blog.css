@@ -1,0 +1,51 @@
+.imageblogs {
+  /* height: 180px; */
+
+  height: -webkit-fill-available;
+
+  width: -webkit-fill-available;
+}
+.headingb {
+  color: #ef7345;
+  font-size: x-large;
+  font-weight: 700;
+}
+.headingb0 {
+  font-size: 60px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  margin-top: -28px;
+}
+.textb {
+  opacity: 0.6;
+  font-size: larger;
+  margin-top: -28px;
+}
+.divvv {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+}
+.divtext {
+  margin-top: -10px;
+  min-width: fit-content;
+  padding-left: 20px;
+}
+.divb {
+  width: 350px;
+  height: 230px;
+}
+.textb2 {
+  color: #ef7345;
+  font-weight: 700;
+}
+.textb0 {
+  color: black;
+  font-size: larger;
+  font-weight: 700;
+
+  /* letter-spacing: 1px; */
+}
+.textb1 {
+  opacity: 0.6;
+}

@@ -1,0 +1,91 @@
+.textfoot {
+  color: white;
+}
+.heading {
+  color: white;
+}
+.foottext {
+  color: white;
+  opacity: 0.5;
+}
+.inputmail {
+  height: 33px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: #36445e;
+  color: white;
+  /* opacity: ; */
+  border: none;
+  padding-left: 10px;
+}
+.btnfooter {
+  color: white;
+  height: 33px;
+  /* width: ; */
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+  background-color: #ef7345;
+}
+/* /////////////////////////footertop css start here////////////////// */
+.divfoot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.input {
+  color: white;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  outline-color: none;
+  width: 280px;
+}
+.input1 {
+  color: white;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 7px;
+  outline-color: none;
+  height: 150px;
+  width: 600px;
+}
+.div {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.div2 {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.div3 {
+  text-align: start;
+}
+.div4 {
+  margin-top: 20px;
+}
+.btn {
+  background-color: #fa5b21;
+  padding: 25px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+.divx {
+  display: flex;
+  flex-direction: row;
+}
+.textfooter {
+  font-weight: 800;
+  font-size: larger;
+  color: #fa5b21;
+}

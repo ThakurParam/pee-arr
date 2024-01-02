@@ -1,0 +1,47 @@
+.heading1 {
+  color: #ef7345;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.heading0 {
+  font-size: 60px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+.btun {
+  border: none;
+  margin-top: 80px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  background-color: #f16431;
+  padding: 20px;
+  border-radius: 12px;
+}
+.textproduct {
+  opacity: 0.6;
+  font-size: larger;
+  margin-top: -10px;
+}
+.imageproduct {
+  height: 200px;
+
+  width: -webkit-fill-available;
+}
+.textsproduct {
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.textxx {
+  color: #f16431;
+  font-weight: 700;
+  font-size: large;
+  margin-top: -10px;
+}
+.spanclass {
+  font-weight: 400;
+  color: black;
+  font-size: small;
+}

@@ -1,0 +1,46 @@
+/* //////////////////////////////////////////////our features css start here//////////////////////////////////////// */
+.headingtop {
+  color: #ef7345;
+  font-size: x-large;
+}
+.headingfeature {
+  font-size: 60px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  margin-top: -50px;
+}
+.headingtext {
+  opacity: 0.5;
+  margin-top: -10px;
+}
+.swiper {
+  padding: 20px;
+  padding-bottom: 30px;
+}
+/* .paper {
+  background-color: #ef7345;
+} */
+.divour {
+  display: flex;
+  flex-direction: row;
+}
+.textours {
+  margin-left: 10px;
+  font-size: x-large;
+  margin-top: -15px;
+  font-weight: 600;
+  /* opacity: 0; */
+  color: white;
+}
+.textour {
+  font-size: large;
+  /* opacity: 0.6; */
+  color: white;
+}
+.btn-our {
+  margin-top: 22px;
+  border: none;
+  font-size: x-large;
+  background-color: #ef7345;
+  color: white;
+}

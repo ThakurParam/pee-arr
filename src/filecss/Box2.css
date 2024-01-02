@@ -1,0 +1,67 @@
+.divbox2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* /////////////////////////////////////////////box csss start here/////////////////////////////////////// */
+.btn-box {
+  border: none;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: larger;
+  font-weight: 600;
+  border-radius: 9px;
+  color: white;
+  background-color: #f16b3a;
+  border: none;
+  margin-top: 25px;
+}
+.divbox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+
+  justify-content: space-evenly;
+}
+.divbox2 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+}
+.imagebox {
+  border: 2px solid #f16b3a;
+  border-radius: 50%;
+  padding: 15px;
+}
+.headingbox {
+  font-size: 75px;
+}
+.textbox {
+  margin-top: 5px;
+  font-size: larger;
+  opacity: 0.7;
+}
+.divbox3 {
+  display: flex;
+  flex-direction: row;
+  /* margin-right: 2px; */
+  margin-right: 60px;
+}
+.divlogo {
+  display: flex;
+  flex-direction: row;
+}
+.imagediv {
+  margin-top: -20px;
+  /* margin-right: -40px; */
+}
+.texticon {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.texticon1 {
+  opacity: 0.6;
+  font-weight: 500;
+}

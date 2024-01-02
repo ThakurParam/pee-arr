@@ -1,0 +1,35 @@
+.divtab {
+  display: flex;
+  flex-direction: row;
+}
+.headingt {
+  color: #ef7345;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.headingt0 {
+  font-size: 60px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  margin-top: -25px;
+}
+.textt {
+  opacity: 0.6;
+  font-size: larger;
+  margin-top: -25px;
+}
+.texttt {
+  font-weight: 600;
+}
+.text00 {
+  margin-top: 5px;
+  padding-left: 15px;
+  font-weight: 600;
+}
+.text000 {
+  margin-top: -10px;
+  opacity: 0.6;
+}
+.headingfooter {
+}
