@@ -15,7 +15,7 @@ export const Footertop = () => {
     <Box sx={{ bgcolor: "#f2f2f2", position: "relative", height: "500px" }}>
       <Container maxWidth="xl">
         <Grid container spacing={2}>
-          <Grid item xs={6} sx={{}}>
+          <Grid item xs={6} md={6} sx={{}}>
             <Box
               sx={{
                 color: "white",
@@ -63,7 +63,7 @@ export const Footertop = () => {
               </Box>
             </Box>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} md={6}>
             <Box sx={{ width: "600px", padding: "40px" }}>
               <Box
                 sx={{

@@ -18,6 +18,7 @@ export const Boxs = () => {
             <Grid
               item
               xs={6}
+              md={6}
               sx={{
                 // border: "2px solid gray",
                 textAlign: "left",
@@ -60,6 +61,7 @@ export const Boxs = () => {
             <Grid
               item
               xs={6}
+              md={6}
               sx={{
                 // border: "2px solid gray",
                 position: "relative",
@@ -94,10 +96,10 @@ export const Boxs = () => {
                 }}
               >
                 <Grid container spacing={2}>
-                  <Grid item xs={6}>
+                  <Grid item xs={6} md={6}>
                     <img src={logo1} className="imagediv"></img>
                   </Grid>
-                  <Grid item xs={6}>
+                  <Grid item xs={6} md={6}>
                     <p className="texticon">MARI</p>
                     <p className="texticon1">Auto Parts</p>
                   </Grid>
@@ -118,10 +120,10 @@ export const Boxs = () => {
                 }}
               >
                 <Grid container spacing={2}>
-                  <Grid item xs={6}>
+                  <Grid item xs={6} md={6}>
                     <img src={logo2}></img>
                   </Grid>
-                  <Grid item xs={6}>
+                  <Grid item xs={6} md={6}>
                     <p className="texticon1">Parts</p>
                     <p className="texticon">150+</p>
                   </Grid>

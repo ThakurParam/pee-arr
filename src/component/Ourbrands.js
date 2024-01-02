@@ -28,7 +28,7 @@ export const Ourbrands = () => {
           </Box>
           <Box>
             <Grid container spacing={2} sx={{ paddingTop: "70px" }}>
-              <Grid item xs={12}>
+              <Grid item xs={12} md={12}>
                 <Grid
                   container
                   spacing={2}
@@ -36,24 +36,24 @@ export const Ourbrands = () => {
                     justifyContent: "space-around",
                   }}
                 >
-                  <Grid item xs={2}>
+                  <Grid item xs={2} md={2}>
                     <img src={img0}></img>
                   </Grid>
-                  <Grid item xs={2}>
+                  <Grid item xs={2} md={2}>
                     <img src={img1}></img>
                   </Grid>
-                  <Grid item xs={2}>
+                  <Grid item xs={2} md={2}>
                     <img src={img2}></img>
                   </Grid>
-                  <Grid item xs={2}>
+                  <Grid item xs={2} md={2}>
                     <img src={img3}></img>
                   </Grid>
-                  <Grid item xs={2}>
+                  <Grid item xs={2} md={2}>
                     <img src={img4}></img>
                   </Grid>
                 </Grid>
               </Grid>
-              <Grid item xs={12}>
+              <Grid item xs={12} md={12}>
                 <Grid
                   container
                   spacing={2}
@@ -62,19 +62,19 @@ export const Ourbrands = () => {
                     paddingTop: "40px",
                   }}
                 >
-                  <Grid item xs={2}>
+                  <Grid item xs={2} md={2}>
                     <img src={img0}></img>
                   </Grid>
-                  <Grid item xs={2}>
+                  <Grid item xs={2} md={2}>
                     <img src={img1}></img>
                   </Grid>
-                  <Grid item xs={2}>
+                  <Grid item xs={2} md={2}>
                     <img src={img2}></img>
                   </Grid>
-                  <Grid item xs={2}>
+                  <Grid item xs={2} md={2}>
                     <img src={img3}></img>
                   </Grid>
-                  <Grid item xs={2}>
+                  <Grid item xs={2} md={2}>
                     <img src={img4}></img>
                   </Grid>
                 </Grid>

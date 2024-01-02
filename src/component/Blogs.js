@@ -22,9 +22,9 @@ export const Blogs = () => {
           </p>
           <Box sx={{ mt: 10 }}>
             <Grid container spacing={2}>
-              <Grid item xs={6}>
+              <Grid item xs={6} md={6}>
                 <Grid container spacing={2}>
-                  <Grid item xs={6}>
+                  <Grid item xs={6} md={6}>
                     <div className="divvv">
                       <div className=" divb">
                         <img src={image} className="imageblogs"></img>
@@ -42,7 +42,7 @@ export const Blogs = () => {
                     </div>
                   </Grid>
                 </Grid>
-                <Grid item xs={6} sx={{ mt: 5 }}>
+                <Grid item xs={6} md={6} sx={{ mt: 5 }}>
                   <div className="divvv">
                     <div className=" divb">
                       <img src={image} className="imageblogs"></img>
@@ -60,7 +60,7 @@ export const Blogs = () => {
                   </div>
                 </Grid>
               </Grid>
-              <Grid item xs={6}>
+              <Grid item xs={6} md={6}>
                 <img src={image}></img>
                 <p className=" textb2">September 24, 2017</p>
                 <p className=" textb0">Title of the blog</p>

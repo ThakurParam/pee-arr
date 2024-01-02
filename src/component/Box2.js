@@ -11,7 +11,7 @@ export const Box2 = () => {
       <Box sx={{ padding: "50px", bgcolor: "lightgray" }}>
         <Container maxWidth="xl">
           <Grid container spacing={12}>
-            <Grid item xs={4}>
+            <Grid item xs={4} md={4}>
               <div className="divbox2">
                 <div>
                   <img src={image}></img>
@@ -24,7 +24,7 @@ export const Box2 = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4} md={4}>
               <div className="divbox2">
                 <div>
                   <img src={image1}></img>
@@ -37,7 +37,7 @@ export const Box2 = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4} md={4}>
               <div className="divbox2">
                 <div>
                   <img src={image2}></img>

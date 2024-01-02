@@ -19,9 +19,9 @@ export const Products = () => {
         </p>
         <Container maxWidth="xl" sx={{ pt: 10 }}>
           <Grid container spacing={2}>
-            <Grid item xs={12}>
+            <Grid item xs={12} md={12}>
               <Grid container spacing={7}>
-                <Grid item xs={3}>
+                <Grid item xs={3} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -41,7 +41,7 @@ export const Products = () => {
                     </Box>
                   </Paper>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={3} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -61,7 +61,7 @@ export const Products = () => {
                     </Box>
                   </Paper>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={3} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -81,7 +81,7 @@ export const Products = () => {
                     </Box>
                   </Paper>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={3} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -103,9 +103,9 @@ export const Products = () => {
                 </Grid>
               </Grid>
             </Grid>
-            <Grid item xs={12} sx={{ mt: 8 }}>
+            <Grid item xs={12} md={12} sx={{ mt: 8 }}>
               <Grid container spacing={7}>
-                <Grid item xs={3}>
+                <Grid item xs={3} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -125,7 +125,7 @@ export const Products = () => {
                     </Box>
                   </Paper>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={3} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -145,7 +145,7 @@ export const Products = () => {
                     </Box>
                   </Paper>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={3} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -165,7 +165,7 @@ export const Products = () => {
                     </Box>
                   </Paper>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={3} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
