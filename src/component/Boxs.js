@@ -26,7 +26,7 @@ export const Boxs = () => {
               }}
             >
               <h1 className="headingbox">Your Trusted Car Parts Store</h1>
-              <p>
+              <p className="textxbox">
                 here you'll find your car parts here at the pee-arr store .here
                 you'll get the all the needs parts of your Vechicle
               </p>

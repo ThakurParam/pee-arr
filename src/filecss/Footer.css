@@ -34,6 +34,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 25px;
 }
 .input {
   color: white;
@@ -83,9 +84,39 @@
 .divx {
   display: flex;
   flex-direction: row;
+  /* margin-top: 15px; */
+}
+.divxx {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
 }
 .textfooter {
   font-weight: 800;
   font-size: larger;
   color: #fa5b21;
+  margin-top: 70px;
+}
+.headingfooter {
+  font-size: xxx-large;
+  margin-top: -10px;
+}
+.textxfoot {
+  font-size: larger;
+  color: gray;
+  font-weight: 600;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.footerdiv {
+  margin-top: -17px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.footerdivxs {
+  margin-left: -40px;
+}
+.imagesize {
+  height: 45px;
 }

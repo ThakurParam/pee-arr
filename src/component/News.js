@@ -43,7 +43,7 @@ export const News = () => {
                   flexWrap: "wrap",
                   "& > :not(style)": {
                     m: 2,
-                    width: 450,
+                    width: 400,
                     height: 500,
                     paddingBottom: "30px",
                     textAlign: "start",

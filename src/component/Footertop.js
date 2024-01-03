@@ -12,7 +12,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 export const Footertop = () => {
   return (
-    <Box sx={{ bgcolor: "#f2f2f2", position: "relative", height: "500px" }}>
+    <Box sx={{ bgcolor: "#f2f2f2", position: "relative", height: "640px" }}>
       <Container maxWidth="xl">
         <Grid container spacing={2}>
           <Grid item xs={6} md={6} sx={{}}>
@@ -64,12 +64,12 @@ export const Footertop = () => {
             </Box>
           </Grid>
           <Grid item xs={6} md={6}>
-            <Box sx={{ width: "600px", padding: "40px" }}>
+            <Box sx={{ width: "600px", padding: "0px", ml: 8 }}>
               <Box
                 sx={{
                   borderBottom: "2px solid gray",
                   textAlign: "start",
-                  pl: 4,
+                  pr: 10,
                 }}
               >
                 <p className="textfooter">CONTACT US</p>
@@ -77,51 +77,51 @@ export const Footertop = () => {
                   Contact us to request a quote today
                   <span className="span">.</span>
                 </h1>
-                <p>
+                <p className="textxfoot">
                   Lorem ipsum dfjbvks sdkjhbsk dhbvsk kjdsbvks jhbsvk djhvsbkx
                   ksjdbvs ksdvb ks shd vk
                 </p>
               </Box>
-              <Box sx={{ width: "300px" }}>
+              <Box sx={{ width: "300px", pr: 10, pt: 5 }}>
                 <div className="divx">
                   <div>
                     <PhoneInTalkIcon />
                   </div>
-                  <div>
+                  <div className="footerdiv">
                     <p>+1012 3456 789</p>
                   </div>
                 </div>
-                <div className="divx">
+                <div className="divxx ">
                   <div>
                     <MailOutlineIcon />
                   </div>
-                  <div>
-                    <p>demo@gmail.com</p>
+                  <div className="footerdiv">
+                    <p className="footerdivs">demo@gmail.com</p>
                   </div>
                 </div>
-                <div className="divx">
+                <div className="divxx">
                   <div>
                     <LocationOnIcon />
                   </div>
-                  <div>
-                    <p>
-                      132 Dartmouth Street Boston,Massachusetts 02156 United
+                  <div className="footerdiv">
+                    <p className="footerdivxs">
+                      132 Dartmouth Street Boston , Massachusetts 02156 United
                       States
                     </p>
                   </div>
                 </div>
                 <div className="divfoot">
                   <div>
-                    <img src={img}></img>
+                    <img src={img} className="imagesize"></img>
                   </div>
                   <div>
-                    <img src={img1}></img>
+                    <img src={img1} className="imagesize"></img>
                   </div>
                   <div>
-                    <img src={img2}></img>
+                    <img src={img2} className="imagesize"></img>
                   </div>
                   <div>
-                    <img src={img3}></img>
+                    <img src={img3} className="imagesize"></img>
                   </div>
                 </div>
               </Box>

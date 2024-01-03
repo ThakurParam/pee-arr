@@ -10,10 +10,10 @@ export const Bar = () => {
   return (
     <>
       {/* <Box> */}
-      {/* <Container maxWidth="lg"> */}
+      {/* <Container maxWidth="xl"> */}
       <Box sx={{ width: "100%" }}>
         <Grid container spacing={8}>
-          <Grid item xs={3} md={3} >
+          <Grid item xs={3} md={3}>
             <img src={image}></img>
           </Grid>
           <Grid item xs={9} md={9}>
@@ -42,7 +42,7 @@ export const Bar = () => {
               <Grid item xs={1} md={1}>
                 <p className="text"> Career</p>
               </Grid>
-              <Grid item xs={1} md={1}>
+              <Grid item xs={2} md={2}>
                 <div>
                   <p className="contact">Contact us</p>
                 </div>
@@ -55,10 +55,20 @@ export const Bar = () => {
         <Grid container spacing={2} sx={{}}>
           <Grid item xs={4} md={4}>
             <Grid container spacing={0}>
-              <Grid item xs={5} md={5} sx={{ color: "white", fontSize: "20px" }}>
+              <Grid
+                item
+                xs={5}
+                md={5}
+                sx={{ color: "white", fontSize: "20px" }}
+              >
                 <p className="textbar">Have a question ?</p>
               </Grid>
-              <Grid item xs={4} md={4} sx={{ color: "white", fontSize: "20px" }}>
+              <Grid
+                item
+                xs={4}
+                md={4}
+                sx={{ color: "white", fontSize: "20px" }}
+              >
                 <div className="iconphone">
                   <div>
                     <PhoneIcon />
@@ -73,10 +83,15 @@ export const Bar = () => {
           <Grid item xs={8} md={8} sx={{ borderLeft: "1px solid white" }}>
             {/* <div className="divtab"> */}
             <Grid container spacing={6}>
-              <Grid item xs={3} md={3}sx={{ color: "white", fontSize: "20px" }}>
+              <Grid
+                item
+                xs={3}
+                md={3}
+                sx={{ color: "white", fontSize: "20px" }}
+              >
                 <p className="textbar">Customer Care Helpline</p>
               </Grid>
-              <Grid item xs={2} md={2} sx={{ color: "white", fontSize: "20px" }}>
+              <Grid item xs={3} md={3} sx={{ color: "white" }}>
                 <div className="iconphone">
                   <div>
                     <PhoneIcon />
