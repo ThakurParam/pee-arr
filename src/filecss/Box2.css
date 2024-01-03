@@ -54,8 +54,11 @@
   flex-direction: row;
 }
 .imagediv {
+  margin-left: -40px;
   margin-top: -20px;
   /* margin-right: -40px; */
+  /* height: max-content; */
+  /* width: max-content; */
 }
 .texticon {
   font-weight: bolder;
@@ -64,9 +67,30 @@
 .texticon1 {
   opacity: 0.6;
   font-weight: 500;
+  margin-top: -15px;
+}
+.texticon2 {
+  margin-left: -27px;
+  opacity: 0.6;
+  font-weight: 500;
+  margin-top: 0px;
+  font-size: larger;
+}
+.texticon3 {
+  font-weight: bolder;
+  font-size: x-large;
+  margin-top: -15px;
+  margin-left: -15px;
 }
 .textxbox {
   color: gray;
   font-size: large;
   font-weight: 600;
+}
+.icondiv {
+  display: flex;
+}
+.icondiv2 {
+  margin-left: -20px;
+  margin-top: -20px;
 }

@@ -16,7 +16,7 @@ export const News = () => {
   return (
     <>
       <Box sx={{ bgcolor: "#f9fafb", mt: 10 }}>
-        <Container maxWidth="xl" sx={{ textAlign: "start", padding: "5px" }}>
+        <Container maxWidth="xl" sx={{ textAlign: "start", padding: "0  px" }}>
           <p className="headingn">News</p>
           <h1 className="headingn0">News & Announcements</h1>
           <p className="textn">

@@ -7,6 +7,7 @@ import imagebox from "../images/boxsideimage.png";
 import logo from "../images/icon/Progress circle.png";
 import logo1 from "../images/icon/icon.png";
 import logo2 from "../images/icon/icon-1.png";
+import { DisplaySettings } from "@mui/icons-material";
 
 export const Boxs = () => {
   const Imageurl = 'url("")';
@@ -95,39 +96,39 @@ export const Boxs = () => {
                   border: " 1px solid #ef7345",
                 }}
               >
-                <Grid container spacing={2}>
-                  <Grid item xs={6} md={6}>
+                <div className="icondiv">
+                  <div>
                     <img src={logo1} className="imagediv"></img>
-                  </Grid>
-                  <Grid item xs={6} md={6}>
+                  </div>
+                  <div className="icondiv2">
                     <p className="texticon">MARI</p>
                     <p className="texticon1">Auto Parts</p>
-                  </Grid>
-                </Grid>
+                  </div>
+                </div>
               </Paper>
 
               <img src={imagebox} className="imagebox"></img>
               <Paper
                 sx={{
-                  height: "70px",
-                  width: "200px",
+                  height: "65px",
+                  width: "170px",
                   padding: "10px",
-                  right: 0,
-                  bottom: 0,
+                  right: 30,
+                  bottom: 30,
                   position: "absolute",
                   borderRadius: "20px",
                   border: " 1px solid #ef7345",
                 }}
               >
-                <Grid container spacing={2}>
-                  <Grid item xs={6} md={6}>
-                    <img src={logo2}></img>
-                  </Grid>
-                  <Grid item xs={6} md={6}>
-                    <p className="texticon1">Parts</p>
-                    <p className="texticon">150+</p>
-                  </Grid>
-                </Grid>
+                <div className="icondiv">
+                  <div>
+                    <img src={logo2} className="imagediv"></img>
+                  </div>
+                  <div className="icondiv3">
+                    <p className="texticon2         ">Parts</p>
+                    <p className="texticon3">150+</p>
+                  </div>
+                </div>
               </Paper>
             </Grid>
           </Grid>
