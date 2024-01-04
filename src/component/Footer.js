@@ -6,7 +6,7 @@ import footimage from "../images/name2.png";
 export const Footer = () => {
   return (
     <>
-      <Box sx={{ bgcolor: "#121823", padding: "50px", marginTop: "220px" }}>
+      <Box sx={{ bgcolor: "#121823", padding: "50px", marginTop: "70px" }}>
         <Container maxWidth="xl">
           <Grid
             container

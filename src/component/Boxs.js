@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Paper } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import img from "../images/box/Group 518.png";
 import img1 from "../images/box/Briefcase.png";
 import img2 from "../images/box/idea.png";
@@ -7,9 +7,23 @@ import imagebox from "../images/boxsideimage.png";
 import logo from "../images/icon/Progress circle.png";
 import logo1 from "../images/icon/icon.png";
 import logo2 from "../images/icon/icon-1.png";
-import { DisplaySettings } from "@mui/icons-material";
+// import { DisplaySettings } from "@mui/icons-material";
 
 export const Boxs = () => {
+  const [hoveredState, setHoveredState] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setHoveredState(true);
+    }, 100);
+  }, []);
+  // const [IsHovered, setIsHovered] = useState(false);
+  // const handleMouseEnter = () => {
+  //   setIsHovered(true);
+  // };
+  // const handleMouseLeave = () => {
+  //   setIsHovered(false);
+  // };
+
   const Imageurl = 'url("")';
   return (
     <>
@@ -70,6 +84,9 @@ export const Boxs = () => {
             >
               <Paper
                 sx={{
+                  scale: hoveredState ? "1" : "0.7",
+                  transition: "all ease 3s",
+                  overflow: "hidden",
                   position: "absolute",
                   mt: 1,
                   right: 30,
@@ -86,6 +103,8 @@ export const Boxs = () => {
               </Paper>
               <Paper
                 sx={{
+                  scale: hoveredState ? "1" : "0.7",
+                  transition: "all ease 3s",
                   height: "70px",
                   width: "180px",
                   padding: "10px",
@@ -110,6 +129,8 @@ export const Boxs = () => {
               <img src={imagebox} className="imagebox"></img>
               <Paper
                 sx={{
+                  scale: hoveredState ? "1" : "0.7",
+                  transition: "all ease 3s",
                   height: "65px",
                   width: "170px",
                   padding: "10px",

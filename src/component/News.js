@@ -1,5 +1,5 @@
 import { Box, Container, Paper } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,9 +13,22 @@ import image from "../images/imageslide.png";
 import "../filecss/News.css";
 
 export const News = () => {
+  const [newsState, setNewsState] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setNewsState(true);
+    }, 100);
+  }, []);
   return (
     <>
-      <Box sx={{ bgcolor: "#f9fafb", mt: 10 }}>
+      <Box
+        sx={{
+          bgcolor: "#f9fafb",
+          mt: 10,
+          transform: `translateX(${newsState ? "0" : "1000px"})`,
+          transition: "transform 8s ease-in-out",
+        }}
+      >
         <Container maxWidth="xl" sx={{ textAlign: "start", padding: "0  px" }}>
           <p className="headingn">News</p>
           <h1 className="headingn0">News & Announcements</h1>

@@ -1,5 +1,5 @@
 import { Box, Container, Paper } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../filecss/Our.css";
 import loogo from "../images/frame/Frame 390.png";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
@@ -12,12 +12,24 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 export const Ourfeatures = () => {
+  const [hoveredState, setHoveredState] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setHoveredState(true);
+    }, 100);
+  }, []);
   const paperStyle = {
     backgroundColor: "#ef7345",
   };
   return (
     <>
-      <Box sx={{ pt: 10 }}>
+      <Box
+        sx={{
+          pt: 10,
+          scale: hoveredState ? "" : "0.2",
+          transition: "all ease 5s",
+        }}
+      >
         <Container maxWidth="xl">
           <h6 className="headingtop">Our Features</h6>
           <h1 className="headingfeature">Our Core Features</h1>

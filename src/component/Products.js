@@ -1,9 +1,15 @@
 import { Box, Container, Grid, Paper } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../filecss/Products.css";
 import image from "../images/partsimage/fan.png";
 
 export const Products = () => {
+  const [discState, setDiscState] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setDiscState(true);
+    }, 100);
+  }, []);
   return (
     <>
       <Box sx={{ pt: 3, pb: 5 }}>
@@ -14,12 +20,19 @@ export const Products = () => {
           Vechicle, Motorcycle & Scooter, Off-road
         </p>
         <p className="textproduct">
-          {" "}
           Vechicle & Tier 1 Manufactures in India & Overseas.
         </p>
         <Container maxWidth="xl" sx={{ pt: 10 }}>
           <Grid container spacing={2}>
-            <Grid item xs={12} md={12}>
+            <Grid
+              item
+              xs={12}
+              md={12}
+              sx={{
+                transform: `translateX(${discState ? "0px" : "1200px"})`,
+                transition: "transform 5s ease-in-out",
+              }}
+            >
               <Grid container spacing={7}>
                 <Grid item xs={3} md={3}>
                   <Paper
@@ -103,7 +116,17 @@ export const Products = () => {
                 </Grid>
               </Grid>
             </Grid>
-            <Grid item xs={12} md={12} sx={{ mt: 8 }}>
+            <Grid
+              item
+              xs={12}
+              md={12}
+              sx={{
+                mt: 8,
+
+                transform: `translateX(${discState ? "0px" : "-1200px"})`,
+                transition: "transform 5s ease-in-out",
+              }}
+            >
               <Grid container spacing={7}>
                 <Grid item xs={3} md={3}>
                   <Paper

@@ -1,13 +1,27 @@
 import { Box, Container, Paper } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import img from "../images/Avatar.png";
 import "../filecss/Testimonial.css";
 import StarRating from "./StarRating";
 
 export const Testimonials = () => {
+  const [hoveredState, setHoveredState] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setHoveredState(true);
+    }, 100);
+  }, []);
   return (
     <>
-      <Box sx={{ pt: 5, mt: 5 }}>
+      <Box
+        sx={{
+          pt: 5,
+          mt: 5,
+
+          scale: hoveredState ? "" : "0.2",
+          transition: "all ease 5s",
+        }}
+      >
         <p className="headingt">Testimonials</p>
         <h1 className="headingt0">What Our Customer Says</h1>
         <p className="textt">

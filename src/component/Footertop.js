@@ -1,5 +1,5 @@
 import { Box, Container, Grid } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../filecss/Footer.css";
 import img from "../images/logosocila/Twitter.png";
 import img1 from "../images/logosocila/Instagram.png";
@@ -11,8 +11,20 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 export const Footertop = () => {
+  const [transitionState, setTransitionState] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setTransitionState(true);
+    }, 100);
+  }, []);
   return (
-    <Box sx={{ bgcolor: "#f2f2f2", position: "relative", height: "640px" }}>
+    <Box
+      sx={{
+        bgcolor: "#f2f2f2",
+        position: "relative",
+        height: "640px",
+      }}
+    >
       <Container maxWidth="xl">
         <Grid container spacing={2}>
           <Grid item xs={6} md={6} sx={{}}>
@@ -24,6 +36,8 @@ export const Footertop = () => {
                 width: "650px",
                 padding: "50px",
                 position: "absolute",
+                transform: `translateX(${transitionState ? "0px" : "1200px"})`,
+                transition: "transform 5s ease-in-out",
               }}
             >
               <Box sx={{ width: "600px" }}>

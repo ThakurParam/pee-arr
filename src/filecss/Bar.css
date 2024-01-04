@@ -10,7 +10,8 @@
   background-color: #ef7345;
   color: white;
   border-radius: 50px;
-  padding: 12px;
+  padding: 10px;
+  /* padding-left: px; */
   margin-top: 3px;
   font-weight: 500;
 }
