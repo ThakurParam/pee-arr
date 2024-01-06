@@ -34,7 +34,7 @@ export const Products = () => {
               }}
             >
               <Grid container spacing={7}>
-                <Grid item xs={3} md={3}>
+                <Grid item xs={6} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -54,7 +54,7 @@ export const Products = () => {
                     </Box>
                   </Paper>
                 </Grid>
-                <Grid item xs={3} md={3}>
+                <Grid item xs={6} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -74,7 +74,7 @@ export const Products = () => {
                     </Box>
                   </Paper>
                 </Grid>
-                <Grid item xs={3} md={3}>
+                <Grid item xs={6} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -94,7 +94,7 @@ export const Products = () => {
                     </Box>
                   </Paper>
                 </Grid>
-                <Grid item xs={3} md={3}>
+                <Grid item xs={6} md={3}>
                   <Paper
                     elevation={20}
                     sx={{
@@ -122,6 +122,7 @@ export const Products = () => {
               md={12}
               sx={{
                 mt: 8,
+                display: { xs: "none", md: "block" },
 
                 transform: `translateX(${discState ? "0px" : "-1200px"})`,
                 transition: "transform 5s ease-in-out",

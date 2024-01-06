@@ -26,8 +26,13 @@ export const Footertop = () => {
       }}
     >
       <Container maxWidth="xl">
-        <Grid container spacing={2}>
-          <Grid item xs={6} md={6} sx={{}}>
+        <Grid container spacing={2} sx={{ display: { xs: "flex" } }}>
+          <Grid
+            item
+            xs={12}
+            md={6}
+            sx={{ display: { xs: "none", md: "block" } }}
+          >
             <Box
               sx={{
                 color: "white",
@@ -77,13 +82,14 @@ export const Footertop = () => {
               </Box>
             </Box>
           </Grid>
-          <Grid item xs={6} md={6}>
-            <Box sx={{ width: "600px", padding: "0px", ml: 8 }}>
+          <Grid item xs={12} md={6}>
+            <Box sx={{ width: "600px", padding: "0px", ml: { xs: 0, md: 8 } }}>
               <Box
                 sx={{
                   borderBottom: "2px solid gray",
                   textAlign: "start",
-                  pr: 10,
+                  pr: { xs: 0, md: 10 },
+                  width: { xs: "300px", md: "500px" },
                 }}
               >
                 <p className="textfooter">CONTACT US</p>

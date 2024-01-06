@@ -47,24 +47,29 @@ export const Ourbrands = () => {
                     transition: "transform 2s ease-in-out",
                   }}
                 >
-                  <Grid item xs={2} md={2}>
+                  <Grid item xs={6} md={2}>
                     <img src={img0}></img>
                   </Grid>
-                  <Grid item xs={2} md={2}>
+                  <Grid item xs={6} md={2}>
                     <img src={img1}></img>
                   </Grid>
-                  <Grid item xs={2} md={2}>
+                  <Grid item xs={6} md={2}>
                     <img src={img2}></img>
                   </Grid>
-                  <Grid item xs={2} md={2}>
+                  <Grid item xs={6} md={2}>
                     <img src={img3}></img>
                   </Grid>
-                  <Grid item xs={2} md={2}>
+                  <Grid item xs={6} md={2}>
                     <img src={img4}></img>
                   </Grid>
                 </Grid>
               </Grid>
-              <Grid item xs={12} md={12}>
+              <Grid
+                item
+                xs={12}
+                md={12}
+                sx={{ display: { xs: "none", md: "block" } }}
+              >
                 <Grid
                   container
                   spacing={2}

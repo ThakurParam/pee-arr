@@ -15,7 +15,7 @@ export const Boxs = () => {
     setTimeout(() => {
       setHoveredState(true);
     }, 100);
-  }, []);
+  });
   // const [IsHovered, setIsHovered] = useState(false);
   // const handleMouseEnter = () => {
   //   setIsHovered(true);
@@ -32,7 +32,7 @@ export const Boxs = () => {
           <Grid container spacing={2}>
             <Grid
               item
-              xs={6}
+              xs={12}
               md={6}
               sx={{
                 // border: "2px solid gray",
@@ -75,11 +75,12 @@ export const Boxs = () => {
             </Grid>
             <Grid
               item
-              xs={6}
+              xs={12}
               md={6}
               sx={{
                 // border: "2px solid gray",
                 position: "relative",
+                display: { xs: "none", md: "block" },
               }}
             >
               <Paper

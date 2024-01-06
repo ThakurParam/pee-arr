@@ -49,3 +49,28 @@
 .textb1 {
   opacity: 0.6;
 }
+@media (max-width: 767px) {
+  .divvv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divtext {
+    margin-top: -10px;
+    min-width: -moz-fit-content;
+    /* min-width: max-content; */
+    padding-left: 0px;
+  }
+  .divtext {
+    margin-top: -10px;
+    min-width: -moz-fit-content;
+    /* min-width: max-content; */
+    padding-left: 0px;
+  }
+  .divtext {
+    margin-top: -10px;
+    min-width: -moz-fit-content;
+    /* min-width: max-content; */
+    padding-left: 0px;
+  }
+}

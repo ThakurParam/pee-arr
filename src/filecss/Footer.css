@@ -120,3 +120,16 @@
 .imagesize {
   height: 45px;
 }
+@media (max-width: 767px) {
+  .headingfooter {
+    font-size: 22px;
+    margin-top: -10px;
+  }
+  .textxfoot {
+    font-size: 15px;
+    color: gray;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+}
