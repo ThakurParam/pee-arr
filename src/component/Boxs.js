@@ -80,7 +80,7 @@ export const Boxs = () => {
               sx={{
                 // border: "2px solid gray",
                 position: "relative",
-                display: { xs: "none", md: "block" },
+                display: { xs: "none", md: "none", lg: "block" },
               }}
             >
               <Paper
