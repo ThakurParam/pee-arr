@@ -37,7 +37,7 @@ export const Boxs = () => {
               sx={{
                 // border: "2px solid gray",
                 textAlign: "left",
-                pr: 12,
+                pr: { xs: "0", md: 12 },
               }}
             >
               <h1 className="headingbox">Your Trusted Car Parts Store</h1>

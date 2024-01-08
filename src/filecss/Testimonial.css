@@ -31,3 +31,11 @@
   margin-top: -10px;
   opacity: 0.6;
 }
+@media (max-width: 767px) {
+  .headingt0 {
+    font-size: 40px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin-top: -25px;
+  }
+}

@@ -83,7 +83,13 @@ export const Footertop = () => {
             </Box>
           </Grid>
           <Grid item xs={12} md={6}>
-            <Box sx={{ width: "600px", padding: "0px", ml: { xs: 0, md: 8 } }}>
+            <Box
+              sx={{
+                width: { xs: "300px", md: "600px" },
+                padding: "0px",
+                ml: { xs: 0, md: 8 },
+              }}
+            >
               <Box
                 sx={{
                   borderBottom: "2px solid gray",

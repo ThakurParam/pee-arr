@@ -6,6 +6,7 @@ import { Blogs } from "./component/Blogs";
 
 import { Box2 } from "./component/Box2";
 import { Boxs } from "./component/Boxs";
+import BurgerMenu from "./component/BurgerMenu";
 import { Footer } from "./component/Footer";
 import { Footertop } from "./component/Footertop";
 import { News } from "./component/News";
@@ -31,6 +32,7 @@ function App() {
       <Footertop />
       <Footer />
       {/* <StarRating /> */}
+      <BurgerMenu />
     </div>
   );
 }

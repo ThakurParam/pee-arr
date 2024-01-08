@@ -45,3 +45,10 @@
   color: black;
   font-size: small;
 }
+@media (max-width: 767px) {
+  .heading0 {
+    font-size: 40px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+  }
+}

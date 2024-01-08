@@ -40,6 +40,11 @@ export const Ourbrands = () => {
                   container
                   spacing={2}
                   sx={{
+                    textAlign: { xs: "center", md: "center" },
+                    // ml: {
+                    //   xs: { textAlign: "center" },
+                    //   md: { textAlign: "center" },
+                    // },
                     justifyContent: "space-around",
                     transform: `translateX(${
                       transitionState ? "0" : "-800px"
@@ -47,19 +52,47 @@ export const Ourbrands = () => {
                     transition: "transform 2s ease-in-out",
                   }}
                 >
-                  <Grid item xs={6} md={2}>
+                  <Grid item xs={12} md={2}>
                     <img src={img0}></img>
                   </Grid>
-                  <Grid item xs={6} md={2}>
+                  <Grid
+                    item
+                    xs={12}
+                    md={2}
+                    sx={{
+                      mt: { xs: 2, md: 2 },
+                    }}
+                  >
                     <img src={img1}></img>
                   </Grid>
-                  <Grid item xs={6} md={2}>
+                  <Grid
+                    item
+                    xs={12}
+                    md={2}
+                    sx={{
+                      mt: { xs: 5, md: 5 },
+                    }}
+                  >
                     <img src={img2}></img>
                   </Grid>
-                  <Grid item xs={6} md={2}>
+                  <Grid
+                    item
+                    xs={12}
+                    md={2}
+                    sx={{
+                      mt: { xs: 5, md: 5 },
+                    }}
+                  >
                     <img src={img3}></img>
                   </Grid>
-                  <Grid item xs={6} md={2}>
+                  <Grid
+                    item
+                    xs={12}
+                    md={2}
+                    sx={{
+                      mt: { xs: 5, md: 5 },
+                    }}
+                  >
                     <img src={img4}></img>
                   </Grid>
                 </Grid>

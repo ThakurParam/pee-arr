@@ -1,12 +1,32 @@
-import { Box, Container, Grid } from "@mui/material";
-import React from "react";
+import {
+  Box,
+  Container,
+  Drawer,
+  Grid,
+  IconButton,
+  List,
+  ListItem,
+  ListItemText,
+  Toolbar,
+} from "@mui/material";
+import React, { useState } from "react";
 import PhoneIcon from "@mui/icons-material/Phone";
 import "../filecss/Bar.css";
+import MenuIcon from "@mui/icons-material/Menu";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import image from "../images/peearr.png";
+
+const drawerWidth = 240;
+
 export const Bar = () => {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
+  };
+
   return (
     <>
       {/* <Box> */}
@@ -17,7 +37,65 @@ export const Bar = () => {
             <img src={image}></img>
           </Grid>
           <Grid item xs={9} md={9}>
-            <Grid container spacing={2}>
+            <Box
+              sx={{
+                display: { xs: "block", md: "none", lg: "none" },
+              }}
+            >
+              <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                <Toolbar>
+                  <IconButton
+                    // color="inherit"
+                    aria-label="open drawer"
+                    edge="start"
+                    onClick={handleDrawerToggle}
+                    sx={{ mr: 2, display: { md: "none" } }}
+                  >
+                    <MenuIcon />
+                  </IconButton>
+                </Toolbar>
+                <Drawer
+                  variant="temporary"
+                  anchor="left"
+                  open={mobileOpen}
+                  onClose={handleDrawerToggle}
+                  ModalProps={{
+                    keepMounted: true, // Better open performance on mobile.
+                  }}
+                  sx={{
+                    display: { xs: "block", md: "none" },
+                    "& .MuiDrawer-paper": {
+                      boxSizing: "border-box",
+                      width: drawerWidth,
+                    },
+                  }}
+                >
+                  <List>
+                    {/* Replace the items below with your actual menu items */}
+                    <ListItem button>
+                      <ListItemText primary="Home" />
+                    </ListItem>
+                    <ListItem button>
+                      <ListItemText primary="About" />
+                    </ListItem>
+                    <ListItem button>
+                      <ListItemText primary="Services" />
+                    </ListItem>
+                    <ListItem button>
+                      <ListItemText primary="Contact" />
+                    </ListItem>
+                  </List>
+                </Drawer>
+
+                {/* Main content */}
+                <Toolbar />
+              </div>
+            </Box>
+            <Grid
+              container
+              spacing={2}
+              sx={{ display: { xs: "none", md: "none", lg: "inline-flex" } }}
+            >
               <Grid item xs={2} md={2}>
                 <p className="text">Company overview</p>
               </Grid>
