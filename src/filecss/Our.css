@@ -44,3 +44,10 @@
   background-color: #ef7345;
   color: white;
 }
+@media (max-width: 767px) {
+  .textour {
+    font-size: medium;
+    /* opacity: 0.6; */
+    color: white;
+  }
+}

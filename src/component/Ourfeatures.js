@@ -117,7 +117,6 @@ export const Ourfeatures = () => {
                 </Box>
               </SwiperSlide>
               <SwiperSlide>
-                {" "}
                 <Box
                   sx={{
                     display: "flex",

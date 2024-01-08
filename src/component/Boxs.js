@@ -147,7 +147,7 @@ export const Boxs = () => {
                     <img src={logo2} className="imagediv"></img>
                   </div>
                   <div className="icondiv3">
-                    <p className="texticon2         ">Parts</p>
+                    <p className="texticon2">Parts</p>
                     <p className="texticon3">150+</p>
                   </div>
                 </div>

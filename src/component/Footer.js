@@ -49,12 +49,12 @@ export const Footer = () => {
             </Grid>
           </Grid>
         </Container>
-        <Grid container spacing={8}>
+        {/* <Grid container spacing={8}>
           <Grid item xs={12} md={6} lg={6} sx={{ textAlign: "left" }}>
             © 2023. All Rights Reserved.
           </Grid>
           <Grid item xs={12} md={6} lg={6}></Grid>
-        </Grid>
+        </Grid> */}
       </Box>
     </>
   );

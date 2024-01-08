@@ -73,4 +73,11 @@
     /* min-width: max-content; */
     padding-left: 0px;
   }
+
+  .divtext {
+    width: 300px;
+    margin-top: -10px;
+    /* min-width: fit-content; */
+    padding-left: 20px;
+  }
 }

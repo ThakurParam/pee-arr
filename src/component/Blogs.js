@@ -90,7 +90,7 @@ export const Blogs = () => {
                 sx={{
                   transform: `translateX(${blogState ? "0px" : "1200px"})`,
                   transition: "transform 5s ease-in-out",
-                  display: { xs: "none", md: "block" },
+                  display: { xs: "none", md: "none", lg: "block" },
                 }}
               >
                 <img src={image}></img>

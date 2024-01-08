@@ -67,27 +67,43 @@ export const Bar = () => {
                     "& .MuiDrawer-paper": {
                       boxSizing: "border-box",
                       width: drawerWidth,
+                      bgcolor: "black",
+                      color: "white",
+                      // fontSize: 20,
                     },
                   }}
                 >
                   <List>
-                    {/* Replace the items below with your actual menu items */}
                     <ListItem button>
-                      <ListItemText primary="Home" />
+                      <ListItemText primary="Company Overview" />
                     </ListItem>
                     <ListItem button>
-                      <ListItemText primary="About" />
+                      <ListItemText primary="Products" />
                     </ListItem>
                     <ListItem button>
-                      <ListItemText primary="Services" />
+                      <ListItemText primary="Customers" />
                     </ListItem>
                     <ListItem button>
-                      <ListItemText primary="Contact" />
+                      <ListItemText primary="Facilities" />
+                    </ListItem>
+                    <ListItem button>
+                      <ListItemText primary="Quality" />
+                    </ListItem>
+                    <ListItem button>
+                      <ListItemText primary="Blogs" />
+                    </ListItem>
+                    <ListItem button>
+                      <ListItemText primary="Careers" />
+                    </ListItem>
+                    <ListItem button>
+                      <ListItemText primary="Contact Us" />
+                    </ListItem>
+                    <ListItem button>
+                      <ListItemText primary="Business Verticals" />
                     </ListItem>
                   </List>
                 </Drawer>
 
-                {/* Main content */}
                 <Toolbar />
               </div>
             </Box>
@@ -131,7 +147,7 @@ export const Bar = () => {
       </Box>
       <Box sx={{ bgcolor: "#ef7345", mt: 3, height: "50px" }}>
         <Grid container spacing={2} sx={{}}>
-          <Grid item xs={4} md={4}>
+          <Grid item xs={6} md={4} lg={4}>
             <Grid container spacing={0}>
               <Grid
                 item
@@ -149,7 +165,12 @@ export const Bar = () => {
               >
                 <div className="iconphone">
                   <div>
-                    <PhoneIcon />
+                    <PhoneIcon
+                      sx={{
+                        display: { xs: "none", md: "none", lg: "block" },
+                        mt: "-5px",
+                      }}
+                    />
                   </div>
                   <div>
                     <p className="textbar">+91-98765434567</p>
@@ -158,28 +179,49 @@ export const Bar = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={8} md={8} sx={{ borderLeft: "1px solid white" }}>
+          <Grid
+            item
+            xs={6}
+            md={8}
+            lg={8}
+            sx={{ borderLeft: "1px solid white" }}
+          >
             {/* <div className="divtab"> */}
             <Grid container spacing={6}>
               <Grid
                 item
-                xs={3}
+                xs={6}
                 md={3}
+                lg={3}
                 sx={{ color: "white", fontSize: "20px" }}
               >
                 <p className="textbar">Customer Care Helpline</p>
               </Grid>
-              <Grid item xs={3} md={3} sx={{ color: "white" }}>
+              <Grid item xs={6} md={3} lg={3} sx={{ color: "white" }}>
                 <div className="iconphone">
                   <div>
-                    <PhoneIcon />
+                    <PhoneIcon
+                      sx={{
+                        display: { xs: "none", md: "none", lg: "block" },
+                        mt: "-5px",
+                      }}
+                    />
                   </div>
                   <div>
                     <p className="textbar">011-22331354</p>
                   </div>
                 </div>
               </Grid>
-              <Grid item xs={7} md={7} sx={{ justifyContent: "end" }}>
+              <Grid
+                item
+                xs={7}
+                md={7}
+                lg={7}
+                sx={{
+                  justifyContent: "end",
+                  display: { xs: "none", md: "block", lg: "block" },
+                }}
+              >
                 <div></div>
                 <div className="iconphone">
                   <div>{/* <LinkedInIcon /> */}</div>

@@ -17,7 +17,7 @@ export const Box2 = () => {
                   <img src={image}></img>
                 </div>
                 <div>
-                  <p>
+                  <p className="textbox2">
                     No matter what kind of home you<br></br> have to share, you
                     can increase.
                   </p>
@@ -30,7 +30,7 @@ export const Box2 = () => {
                   <img src={image1}></img>
                 </div>
                 <div>
-                  <p>
+                  <p className="textbox2">
                     No matter what kind of home you<br></br> have to share, you
                     can increase.
                   </p>
@@ -43,7 +43,7 @@ export const Box2 = () => {
                   <img src={image2}></img>
                 </div>
                 <div>
-                  <p>
+                  <p className="textbox2">
                     No matter what kind of home you<br></br> have to share, you
                     can increase.
                   </p>

@@ -31,7 +31,7 @@ export const Footertop = () => {
             item
             xs={12}
             md={6}
-            sx={{ display: { xs: "none", md: "block" } }}
+            sx={{ display: { xs: "none", md: "none", lg: "block" } }}
           >
             <Box
               sx={{
