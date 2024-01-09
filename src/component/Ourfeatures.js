@@ -26,9 +26,9 @@ export const Ourfeatures = () => {
       <Box
         sx={{
           pt: 10,
-          scale: hoveredState ? "" : "0.2",
-          transition: "all ease 5s",
         }}
+        data-aos="zoom-in-up"
+        data-aos-duration="2000"
       >
         <Container maxWidth="xl">
           <h6 className="headingtop">Our Features</h6>

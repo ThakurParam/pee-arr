@@ -34,10 +34,15 @@ export const Blogs = () => {
                   item
                   xs={6}
                   md={6}
-                  sx={{
-                    transform: `translateX(${blogState ? "0px" : "-1200px"})`,
-                    transition: "transform 5s ease-in-out",
-                  }}
+                  sx={
+                    {
+                      // transform: `translateX(${blogState ? "0px" : "-1200px"})`,
+                      // transition: "transform 5s ease-in-out",
+                    }
+                  }
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
                 >
                   <div className="divvv">
                     <div className=" divb">
@@ -62,9 +67,12 @@ export const Blogs = () => {
                   md={6}
                   sx={{
                     mt: 5,
-                    transform: `translateX(${blogState ? "0px" : "-1200px"})`,
-                    transition: "transform 5s ease-in-out",
+                    // transform: `translateX(${blogState ? "0px" : "-1200px"})`,
+                    // transition: "transform 5s ease-in-out",
                   }}
+                  data-aos="flip-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="3000"
                 >
                   <div className="divvv">
                     <div className=" divb">
@@ -88,10 +96,12 @@ export const Blogs = () => {
                 xs={6}
                 md={6}
                 sx={{
-                  transform: `translateX(${blogState ? "0px" : "1200px"})`,
-                  transition: "transform 5s ease-in-out",
+                  // transform: `translateX(${blogState ? "0px" : "1200px"})`,
+                  // transition: "transform 5s ease-in-out",
                   display: { xs: "none", md: "none", lg: "block" },
                 }}
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-center"
               >
                 <img src={image}></img>
                 <p className=" textb2">September 24, 2017</p>

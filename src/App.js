@@ -1,5 +1,6 @@
 // import logo from "./logo.svg";
 
+import { useEffect } from "react";
 import "./App.css";
 import { Bar } from "./component/Bar";
 import { Blogs } from "./component/Blogs";
@@ -16,8 +17,13 @@ import { Ourfeatures } from "./component/Ourfeatures";
 import { Products } from "./component/Products";
 import StarRating from "./component/StarRating";
 import { Testimonials } from "./component/Testimonials";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="App">
       <Bar />
@@ -32,7 +38,6 @@ function App() {
       <Footertop />
       <Footer />
       {/* <StarRating /> */}
-      
     </div>
   );
 }

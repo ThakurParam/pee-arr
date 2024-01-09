@@ -4,12 +4,12 @@ import "../filecss/Products.css";
 import image from "../images/partsimage/fan.png";
 
 export const Products = () => {
-  const [discState, setDiscState] = useState(false);
-  useEffect(() => {
-    setTimeout(() => {
-      setDiscState(true);
-    }, 100);
-  }, []);
+  // const [discState, setDiscState] = useState(false);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setDiscState(true);
+  //   }, 100);
+  // }, []);
   return (
     <>
       <Box sx={{ pt: 3, pb: 5 }}>
@@ -28,10 +28,14 @@ export const Products = () => {
               item
               xs={12}
               md={12}
-              sx={{
-                transform: `translateX(${discState ? "0px" : "1200px"})`,
-                transition: "transform 5s ease-in-out",
-              }}
+              sx={
+                {
+                  // transform: `translateX(${discState ? "0px" : "1200px"})`,
+                  // transition: "transform 5s ease-in-out",
+                }
+              }
+              data-aos="fade-down-left"
+              data-aos-duration="2000"
             >
               <Grid container spacing={7}>
                 <Grid item xs={12} md={6} lg={3}>
@@ -124,9 +128,11 @@ export const Products = () => {
                 mt: 8,
                 display: { xs: "none", md: "block" },
 
-                transform: `translateX(${discState ? "0px" : "-1200px"})`,
-                transition: "transform 5s ease-in-out",
+                // transform: `translateX(${discState ? "0px" : "-1200px"})`,
+                // transition: "transform 5s ease-in-out",
               }}
+              data-aos="fade-down-right"
+              data-aos-duration="3000"
             >
               <Grid container spacing={7}>
                 <Grid item xs={3} md={3}>

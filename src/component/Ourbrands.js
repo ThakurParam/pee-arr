@@ -5,15 +5,15 @@ import img1 from "../images/name/party.png";
 import img2 from "../images/name/percy.png";
 import img3 from "../images/name/rancher.png";
 import img4 from "../images/name/mapzen.png";
-import { X } from "@mui/icons-material";
+// import { X } from "@mui/icons-material";
 
 export const Ourbrands = () => {
-  const [transitionState, setTransitionState] = useState(false);
-  useEffect(() => {
-    setTimeout(() => {
-      setTransitionState(true);
-    }, 100);
-  }, []);
+  // const [transitionState, setTransitionState] = useState(false);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setTransitionState(true);
+  //   }, 100);
+  // }, []);
   return (
     <>
       <Box
@@ -46,10 +46,10 @@ export const Ourbrands = () => {
                     //   md: { textAlign: "center" },
                     // },
                     justifyContent: "space-around",
-                    transform: `translateX(${
-                      transitionState ? "0" : "-800px"
-                    })`,
-                    transition: "transform 2s ease-in-out",
+                    // transform: `translateX(${
+                    //   transitionState ? "0" : "-800px"
+                    // })`,
+                    // transition: "transform 2s ease-in-out",
                   }}
                 >
                   <Grid item xs={12} md={2}>
@@ -109,11 +109,13 @@ export const Ourbrands = () => {
                   sx={{
                     justifyContent: "space-around",
                     paddingTop: "40px",
-                    transform: `translateX(${
-                      transitionState ? "0" : "1000px"
-                    })`,
-                    transition: "transform 2s ease-in-out",
+                    // transform: `translateX(${
+                    //   transitionState ? "0" : "1000px"
+                    // })`,
+                    // transition: "transform 2s ease-in-out",
                   }}
+                  data-aos="zoom-in"
+                  data-aos-duration="8000"
                 >
                   <Grid item xs={2} md={2}>
                     <img src={img0}></img>

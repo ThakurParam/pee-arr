@@ -18,9 +18,10 @@ export const Testimonials = () => {
           pt: 5,
           mt: 5,
 
-          scale: hoveredState ? "" : "0.2",
-          transition: "all ease 5s",
+          // scale: hoveredState ? "" : "0.2",
+          // transition: "all ease 5s",
         }}
+        data-aos="flip-down"
       >
         <p className="headingt">Testimonials</p>
         <h1 className="headingt0">What Our Customer Says</h1>

@@ -41,9 +41,13 @@ export const Footertop = () => {
                 width: "650px",
                 padding: "50px",
                 position: "absolute",
-                transform: `translateX(${transitionState ? "0px" : "1200px"})`,
-                transition: "transform 5s ease-in-out",
+                // transform: `translateX(${transitionState ? "0px" : "1200px"})`,
+                // transition: "transform 5s ease-in-out",
               }}
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              // duration="5000"
             >
               <Box sx={{ width: "600px" }}>
                 <div className="div3">

@@ -25,9 +25,12 @@ export const News = () => {
         sx={{
           bgcolor: "#f9fafb",
           mt: 10,
-          transform: `translateX(${newsState ? "0" : "1000px"})`,
-          transition: "transform 8s ease-in-out",
+          // transform: `translateX(${newsState ? "0" : "1000px"})`,
+          // transition: "transform 8s ease-in-out",
         }}
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
       >
         <Container maxWidth="xl" sx={{ textAlign: "start", padding: "0  px" }}>
           <p className="headingn">News</p>
