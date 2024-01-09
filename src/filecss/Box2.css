@@ -111,7 +111,9 @@
     /* justify-content: space-evenly; */
   }
   .textbox2 {
+    margin-top: 10px;
     font-size: smaller;
+    margin-left: 10px;
   }
   .textbox {
     margin-top: 8px;

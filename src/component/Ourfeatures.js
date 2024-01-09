@@ -64,8 +64,8 @@ export const Ourfeatures = () => {
                       height: 250,
                     },
                     padding: "70px",
-                    paddingLeft: "80px",
-                    paddingRight: "40px",
+                    paddingLeft: { xs: "0px", md: "0px", lg: "80px" },
+                    paddingRight: { xs: "0px", md: "0px", lg: "40px" },
                     justifyContent: "space-around",
                     // borderRadius: "20px",
                   }}
