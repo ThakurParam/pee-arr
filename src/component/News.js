@@ -81,8 +81,14 @@ export const News = () => {
                     here you'll get to know all the news about us{" "}
                   </p>
                 </Paper>
-                <Paper>
-                  <Box sx={{ height: "420px" }}>
+                <Paper
+                // sx={{ display: { xs: "none", md: "none", lg: "block" } }}
+                >
+                  <Box
+                    sx={{
+                      height: "420px",
+                    }}
+                  >
                     <img src={image} className="imagenews"></img>
                   </Box>
                   <p className="textnews">12 june 2012</p>
