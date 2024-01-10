@@ -99,7 +99,7 @@ export const Footertop = () => {
                   borderBottom: "2px solid gray",
                   textAlign: "start",
                   pr: { xs: 0, md: 10 },
-                  width: { xs: "300px", md: "500px" },
+                  width: { xs: "280px", md: "500px" },
                 }}
               >
                 <p className="textfooter">CONTACT US</p>
@@ -112,7 +112,7 @@ export const Footertop = () => {
                   ksjdbvs ksdvb ks shd vk
                 </p>
               </Box>
-              <Box sx={{ width: "300px", pr: 10, pt: 5 }}>
+              <Box sx={{ width: "300px", pr: 8, pt: 5 }}>
                 <div className="divx">
                   <div>
                     <PhoneInTalkIcon />

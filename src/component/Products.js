@@ -34,7 +34,7 @@ export const Products = () => {
                   // transition: "transform 5s ease-in-out",
                 }
               }
-              data-aos="fade-down-left"
+              data-aos="flip-right"
               data-aos-duration="2000"
             >
               <Grid container spacing={7}>

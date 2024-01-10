@@ -19,6 +19,7 @@ import StarRating from "./component/StarRating";
 import { Testimonials } from "./component/Testimonials";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Container } from "@mui/material";
 
 function App() {
   useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
       <Blogs />
       <Footertop />
       <Footer />
+
       {/* <StarRating /> */}
     </div>
   );

@@ -173,7 +173,7 @@ export const Bar = () => {
                       />
                     </div>
                     <div>
-                      <p className="textbar">+91-98765434567</p>
+                      <p className="textbar">+91-987654345</p>
                     </div>
                   </div>
                 </Grid>
