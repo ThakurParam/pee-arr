@@ -17,7 +17,7 @@ export const Testimonials = () => {
         sx={{
           pt: 5,
           mt: 5,
-
+          textAlign: "center",
           // scale: hoveredState ? "" : "0.2",
           // transition: "all ease 5s",
         }}

@@ -19,14 +19,18 @@ import StarRating from "./component/StarRating";
 import { Testimonials } from "./component/Testimonials";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Container } from "@mui/material";
+import { Box, Container } from "@mui/material";
 
 function App() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <div className="App">
+    <Box
+      sx={{
+        overflowX: "hidden",
+      }}
+    >
       <Bar />
       <Boxs />
       <Box2 />
@@ -40,7 +44,7 @@ function App() {
       <Footer />
 
       {/* <StarRating /> */}
-    </div>
+    </Box>
   );
 }
 

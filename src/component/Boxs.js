@@ -85,7 +85,7 @@ export const Boxs = () => {
             >
               <Paper
                 sx={{
-                  scale: hoveredState ? "1" : "0.7",
+                  scale: hoveredState ? "" : "0.7",
                   transition: "all ease 3s",
                   overflow: "hidden",
                   position: "absolute",
@@ -96,7 +96,7 @@ export const Boxs = () => {
                   border: " 1px solid #ef7345",
                 }}
               >
-                <Box>
+                <Box textAlign={"center"}>
                   <img src={logo}></img>
                 </Box>
                 <p className="texticon"> 5K+</p>
@@ -104,7 +104,7 @@ export const Boxs = () => {
               </Paper>
               <Paper
                 sx={{
-                  scale: hoveredState ? "1" : "0.7",
+                  scale: hoveredState ? "" : "0.7",
                   transition: "all ease 3s",
                   height: "70px",
                   width: "180px",
@@ -130,7 +130,7 @@ export const Boxs = () => {
               <img src={imagebox} className="imagebox"></img>
               <Paper
                 sx={{
-                  scale: hoveredState ? "1" : "0.7",
+                  scale: hoveredState ? "" : "0.7",
                   transition: "all ease 3s",
                   height: "65px",
                   width: "170px",

@@ -44,10 +44,10 @@ export const Footertop = () => {
                 // transform: `translateX(${transitionState ? "0px" : "1200px"})`,
                 // transition: "transform 5s ease-in-out",
               }}
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-              // duration="5000"
+              data-aos="zoom-in"
+              // data-aos-offset="300"
+              // data-aos-easing="ease-in-sine"
+              data-aos-duration="2000"
             >
               <Box sx={{ width: "600px" }}>
                 <div className="div3">

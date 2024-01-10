@@ -12,7 +12,7 @@ export const Products = () => {
   // }, []);
   return (
     <>
-      <Box sx={{ pt: 3, pb: 5 }}>
+      <Box sx={{ pt: 3, pb: 5, textAlign: "center" }}>
         <p className="heading1 ">Products</p>
         <h1 className="heading0">Get Products For Every Need </h1>
         <p className="textproduct">
@@ -34,7 +34,7 @@ export const Products = () => {
                   // transition: "transform 5s ease-in-out",
                 }
               }
-              data-aos="flip-right"
+              data-aos="flip-up"
               data-aos-duration="2000"
             >
               <Grid container spacing={7}>
@@ -131,7 +131,7 @@ export const Products = () => {
                 // transform: `translateX(${discState ? "0px" : "-1200px"})`,
                 // transition: "transform 5s ease-in-out",
               }}
-              data-aos="fade-down-right"
+              data-aos="fade-down"
               data-aos-duration="3000"
             >
               <Grid container spacing={7}>

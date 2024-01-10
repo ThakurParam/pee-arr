@@ -40,7 +40,7 @@ export const Blogs = () => {
                       // transition: "transform 5s ease-in-out",
                     }
                   }
-                  data-aos="flip-left"
+                  data-aos="flip-up"
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="2000"
                 >
@@ -70,7 +70,7 @@ export const Blogs = () => {
                     // transform: `translateX(${blogState ? "0px" : "-1200px"})`,
                     // transition: "transform 5s ease-in-out",
                   }}
-                  data-aos="flip-right"
+                  data-aos="flip-up"
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="3000"
                 >
@@ -100,8 +100,8 @@ export const Blogs = () => {
                   // transition: "transform 5s ease-in-out",
                   display: { xs: "none", md: "none", lg: "block" },
                 }}
-                data-aos="fade-up"
-                data-aos-anchor-placement="bottom-center"
+                // data-aos="fade-up"
+                // data-aos-anchor-placement="bottom-center"
               >
                 <img src={image}></img>
                 <p className=" textb2">September 24, 2017</p>
