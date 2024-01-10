@@ -44,7 +44,7 @@ export const Bar = () => {
               }}
             >
               <div style={{ display: "flex", justifyContent: "flex-end" }}>
-                <Toolbar>
+                <Toolbar sx={{ marginRight: "-50px" }}>
                   <IconButton
                     // color="inherit"
                     aria-label="open drawer"
